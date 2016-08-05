@@ -1,0 +1,19 @@
+{
+    "description": "Slash API Libraries for PHP to request to all Slash API Endpoint",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Promsopheak",
+            "email": "npsopheak@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "name": "slash-library/slash-pay",
+    "require": {
+    },
+    "autoload": {
+        "psr-4" : {
+            "SlashLibrary\\" : "src/"
+        }
+    }
+}
