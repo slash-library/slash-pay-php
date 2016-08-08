@@ -21,7 +21,6 @@ class Checkout{
     }
 
     public function pay($data){
-    	echo('Bearer ' . $this->privateKey);
     	return $this->request->post(self::PAY_ENDPOINT, $data, [
     		'Authorization' => 'Bearer ' . $this->privateKey
     	]);
